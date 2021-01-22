@@ -1,0 +1,36 @@
+<section class="mt-3 w-50 m-auto">
+  <h1 class="text-center text-info">Quiz Scraper - Google</h1>
+  <form
+    action="/"
+    method="post"
+    class="row g-3 d-flex flex-column justify-content-center align-items-center"
+  >
+    <div class="w-100">
+      <label for="inputPassword2">Keyword:</label>
+      <input
+        name="keyword"
+        type="text"
+        class="form-control"
+        placeholder="Use 1 keyword only. Ex: Money Heist Quiz"
+      />
+    </div>
+    <div class="w-100">
+      <label for="inputPassword2">Number of Page:</label>
+      <select class="form-select w-100" name="numbPage">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+    </div>
+    <div class="w-100">
+      <button type="submit" class="btn btn-primary w-100">Scrape Now</button>
+    </div>
+  </form>
+</section>

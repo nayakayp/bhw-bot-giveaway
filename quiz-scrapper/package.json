@@ -1,0 +1,29 @@
+{
+  "name": "quiz-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devstart": "nodemon ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "ejs-promise": "^0.3.3",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "google-it": "^1.6.1",
+    "keyword-extractor": "0.0.19",
+    "meta-extractor": "^2.0.0",
+    "metascraper": "^5.16.14",
+    "metascraper-date": "^5.16.14",
+    "metascraper-description": "^5.16.14",
+    "metascraper-title": "^5.16.14",
+    "node-fetch": "^2.6.1"
+  }
+}
